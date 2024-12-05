@@ -1,2 +1,129 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Informationsseite über SRAM (Static Random Access Memory).">
+    <title>SRAM - Static Random Access Memory</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        ul {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .column {
+            flex: 1;
+            min-width: 300px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>SRAM - Static Random Access Memory</h1>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Was ist SRAM?</h2>
+            <p>SRAM (Static Random Access Memory) ist ein schneller, flüchtiger Speicher, der seine Daten so lange behält, wie er mit Strom versorgt wird. Er benötigt keine Auffrischung und ermöglicht schnellen Zugriff auf Daten.</p>
+        </section>
+
+        <section>
+            <h2>Aufbau von SRAM</h2>
+            <p>SRAM besteht aus Speicherzellen, die mit 6 Transistoren aufgebaut sind und jeweils ein Bit speichern. Diese Zellen sind in einer Matrix organisiert und werden über Adress- und Datenleitungen angesteuert.</p>
+        </section>
+
+        <section>
+            <h2>Merkmale von SRAM</h2>
+            <ul>
+                <li>Schneller Zugriff ohne Auffrischung</li>
+                <li>Flüchtigkeit: Daten gehen bei Stromausfall verloren</li>
+                <li>Hoher Stromverbrauch, besonders im Standby</li>
+                <li>Geringe Speicherdichte und hohe Kosten im Vergleich zu DRAM</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Einsatzgebiete von SRAM</h2>
+            <div class="row">
+                <div class="column">
+                    <h3>CPU-Caches</h3>
+                    <p>Schneller Zwischenspeicher für häufig benötigte Daten.</p>
+                </div>
+                <div class="column">
+                    <h3>Eingebettete Systeme</h3>
+                    <p>Verwendet in Mikrocontrollern und spezialisierten Geräten.</p>
+                </div>
+                <div class="column">
+                    <h3>Puffer- und Zwischenspeicher</h3>
+                    <p>In Netzwerkgeräten und Hardware, die schnelle Datenverarbeitung erfordern.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Asynchrone vs. Synchrone SRAM</h2>
+            <p><strong>Asynchrone SRAM</strong>: Kein Takt erforderlich, sofortiger Zugriff, langsamer als synchrone SRAM.</p>
+            <p><strong>Synchrone SRAM</strong>: Taktgesteuert, schneller und präziser, ideal für zeitkritische Anwendungen.</p>
+        </section>
+
+        <section>
+            <h2>Vorteile und Nachteile von SRAM</h2>
+            <h3>Vorteile</h3>
+            <ul>
+                <li>Schneller Zugriff</li>
+                <li>Zuverlässigkeit und stabile Datenspeicherung</li>
+            </ul>
+            <h3>Nachteile</h3>
+            <ul>
+                <li>Hoher Stromverbrauch</li>
+                <li>Geringe Speicherdichte und hohe Kosten</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
 # Auto detect text files and perform LF normalization
 * text=auto
